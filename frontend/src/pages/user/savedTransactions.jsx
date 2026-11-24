@@ -3,8 +3,8 @@ import UserService from '../../services/userService';
 import Header from '../../components/utils/header';
 import Loading from '../../components/utils/loading';
 import { Link, useLocation } from 'react-router-dom';
-import Info from '../../components/utils/Info.js';
-import Container from '../../components/utils/Container.js';
+import Info from '../../components/utils/Info.jsx';
+import Container from '../../components/utils/Container.jsx';
 import toast, { Toaster } from 'react-hot-toast';
 
 function SavedTransactions() {
@@ -109,7 +109,6 @@ function SavedTransactionList({ list, saveTransaction, skipTransaction }) {
                         <i className='fa fa-exclamation-circle' aria-hidden='true'></i> : 
                         t.dueInformation.includes('Today') ? 
                         <i className='fa fa-history' aria-hidden='true'></i> : <></>}
-                    
                 </p>
                 <div>
                     <button 

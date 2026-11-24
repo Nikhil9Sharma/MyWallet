@@ -9,8 +9,8 @@ import usePagination from '../../hooks/usePagination';
 import PageInfo from '../../components/utils/pageInfo';
 import TransactionList from '../../components/userTransactions/transactionList.js';
 import { useLocation } from 'react-router-dom';
-import Info from '../../components/utils/Info.js';
-import Container from '../../components/utils/Container.js';
+import Info from '../../components/utils/Info.jsx';
+import Container from '../../components/utils/Container.jsx';
 import toast, { Toaster } from 'react-hot-toast';
 
 

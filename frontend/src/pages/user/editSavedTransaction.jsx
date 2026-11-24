@@ -12,7 +12,7 @@ import SavedTransactionForm from '../../components/userTransactions/SavedTransac
 
 const transactionTypes = [{ 'id': 1, 'name': 'Expense' }, { 'id': 2, 'name': 'Income' }]
 
-function EditSavedTransaction() {
+function editSavedTransaction() {
     const { transactionId } = useParams();
     const [transaction, setData] = useState({});
     const [categories, isFetching] = useCategories();
@@ -122,4 +122,4 @@ function EditSavedTransaction() {
     )
 }
 
-export default EditSavedTransaction;
+export default editSavedTransaction;
